@@ -246,6 +246,12 @@ flex-direction: row;
     font-weight: 500;
     background-color: hsl(224, 30%, 27%);
 } 
+button:active{
+   /* color:red; */
+   /* background: red; */
+   background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1)30%, rgb(17, 37, 212));
+    /* background: linear-gradient(to bottom, hsl(234, 85%, 45%,), hsl(256, 72%, 46%, 1)); */
+} 
 
 @media screen and (max-width: 700px){
     .wrap{
@@ -300,7 +306,7 @@ main{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 
     .wrap{
         display: flex;
@@ -325,6 +331,19 @@ main{
     
 }
 
+@media screen and (max-width: 1300px){
+    .wrap{
+        display: flex;
+        align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+        height: 60%;
+        width: 90%;
+        /* width: fit-content; */
+        border-radius: 30px;
+        /* box-shadow: 10px 15px 20px 0px hsla(241, 72%, 46%, 0.071); */
+    }
+}
 
 
 
